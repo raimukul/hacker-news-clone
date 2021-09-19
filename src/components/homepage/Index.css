@@ -1,0 +1,31 @@
+.title{
+    text-align:right;
+    vertical-align:top;
+    font-size: 12pt;
+    color: #828282;
+}
+.votelinks{
+    vertical-align:top
+}
+.cursor{
+    vertical-align:top
+}
+a:link {
+    color: #000000!important;
+    text-decoration: none;
+}
+.comhead {
+    font-size: 9pt;
+    color: #828282;
+}
+.pointer{
+    cursor: pointer;
+}
+.postDetails{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 9pt;
+    color: #828282;
+}
+.time{
+    padding-left: 3px;
+}
