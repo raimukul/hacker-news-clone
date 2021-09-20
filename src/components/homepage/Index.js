@@ -20,7 +20,7 @@ export default function Index() {
     fectch();
   }, []);
 
-  console.log(datas.length > 48 ? datas : "loading");
+  // console.log(datas.length > 48 ? datas : "loading");
 
   return (
     <div>
@@ -75,7 +75,7 @@ export default function Index() {
             );
           })}
 
-          <tr>
+          {/* <tr>
             <td colSpan="2"></td>
             <td className="postDetails">
               <span className="score">43 points</span> by{" "}
@@ -93,7 +93,7 @@ export default function Index() {
               </a>{" "}
               | <a href="/">1 comment</a>
             </td>
-          </tr>
+          </tr> */}
           </tbody>
         </table>
       </Container>
