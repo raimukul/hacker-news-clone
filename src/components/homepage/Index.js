@@ -40,19 +40,19 @@ export default function Index() {
                     </a>
                   </div>
                 </td>
-                <td className="title  text-left">
+                <td className="title">
                   <a className="storylink"  href={data.url}>
-                    {data.title}
+                  {data.title}
                   </a>
                   <span className="sitebit comhead">
                     (
-                    <a href="/">
-                      <span className="sitestr">thehustle.co</span>
+                    <a href={data.url}>
+                      <span className="sitestr">data.url</span>
                     </a>
                     )
                   </span>
                 </td>
-                <tr className="athing" key={i + 1}>
+              <br></br>
                 <td colSpan="2"></td>
             <td className="postDetails">
               <span className="score">{data.score} points</span> by{" "}
@@ -71,7 +71,7 @@ export default function Index() {
               | <a href="/">{data.descendants} comment</a>
             </td>
               </tr>
-              </tr>
+          
             );
           })}
 
